@@ -1,0 +1,155 @@
+:root{
+    --primery-text-color:#212121;
+    --secondary-text-color:#757575;
+    --white-text:#ffffff;
+    --blu-color:#2196F3;
+    --black-color:#000000;
+    --buttom-filtre-color: #f5f4fa;
+    --buttom-color-focus:#188CE8;
+    --contacts-footer-color:rgba(255, 255, 255, 0.6);
+    --primery-fons-color:#ffffff;
+    --secondary-fons-color:#2F303A;
+
+    --font-family: 'Raleway';
+    --font-family: 'Roboto'
+}
+body{font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+    background-color: var(--buttom-filtre-color);
+}
+a{  text-decoration: none;
+    font-style: none;
+    color: var(--primery-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+li{
+    list-style: none;
+}
+/*nav*/
+.logo{ font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color:var(--blu-color)
+}
+.studio{
+    color:var(--black-color);}
+.item{
+    line-height: 1,14;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color:var(--secondary-text-color);
+}
+.item:hover, .item:focus, .contacts:hover, .contacts:focus{
+    color:var(--blu-color)
+}
+/*main*/
+.herou, .footer-bgc{
+    background-color: var(--secondary-fons-color);
+}
+.title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height:1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--white-text);
+}
+/*Buttons*/
+.button{
+    font-family: inherit;
+    font-size: 16px;
+    cursor:pointer;}
+
+.order{
+    font-weight: 700;
+    line-height: 1,87;
+    letter-spacing: 0.06em;
+    cursor:pointer;
+    background-color: var(--blu-color);
+    color:var(--white-text);
+}
+.filter {
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+    background-color:var(--buttom-filtre-color);
+}
+.filter:hover, .filter:focus{
+    background-color: var(--blu-color);
+       color:var(--white-text);
+ }
+.ordern:hover, .order:focus{
+     background-color:var(--buttom-color-focus);
+}
+/*Advantages*/
+.invisible-text{visibility: hidden;}
+.section-title{
+    line-height: 1.14;
+    text-transform: uppercase;
+    color:var(--primery-text-color);
+}
+.title-text{
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+    /*tem*/
+ }
+ .team{color:var(--secondary-text-color)}
+.text{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color:var(--primery-text-color);
+}
+.text-list{
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.18;
+    color:var(--primery-text-color);
+    }
+.text-post{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--secondary-text-color);
+}
+.item-list{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--primery-text-color)
+}    
+
+
+/*Footer*/
+.studio-doun{color:var(--white-text)
+}
+.contacts-doun{
+    font-style:normal;
+    line-height: 24px;
+    color:var(--contacts-footer-color) ;
+}
+
+.address{ font-style:normal;
+        color:var(--white-text);
+}
+.contacts-doun:hover,.contacts-doun:focus{
+    color: var(--blu-color);
+}
