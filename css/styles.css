@@ -25,7 +25,7 @@ a{  text-decoration: none;
     color: var(--primery-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 li{
@@ -41,14 +41,14 @@ li{
 .studio{
     color:var(--black-color);}
 .item{
-    line-height: 1,14;
+    line-height: 1.14;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
 .contacts{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--secondary-text-color);
 }
@@ -76,7 +76,7 @@ li{
 
 .order{
     font-weight: 700;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     cursor:pointer;
     background-color: var(--blu-color);
@@ -99,6 +99,7 @@ li{
 /*Advantages*/
 .invisible-text{visibility: hidden;}
 .section-title{
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color:var(--primery-text-color);
@@ -122,9 +123,7 @@ li{
     line-height:1.18;
     color:var(--primery-text-color);
     }
-.text-post{font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.text-post{
     font-size: 16px;
     line-height: 1.18;
     color: var(--secondary-text-color);
@@ -143,7 +142,7 @@ li{
 }
 .contacts-doun{
     font-style:normal;
-    line-height: 24px;
+    line-height: 1.71;
     color:var(--contacts-footer-color) ;
 }
 
